@@ -30,8 +30,8 @@ export const Navbar = () => {
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
-            <Image alt="Logo" className="min-w-10" height="42" src="/logo.svg" width="42" />
-            <p className="font-bold text-inherit text-3xl">Cyborg Tests</p>
+            <Image alt="Logo" className="min-w-10" height="42" src="/alogo.png" width="42" />
+            <p className="font-bold text-inherit text-3xl">acutrans test results</p>
           </NextLink>
         </NavbarBrand>
         <ul className="hidden lg:flex gap-4 justify-start ml-2">
@@ -54,15 +54,15 @@ export const Navbar = () => {
 
       <NavbarContent className="hidden sm:flex basis-1/5 sm:basis-full" justify="end">
         <NavbarItem className="hidden sm:flex gap-4">
-          <Link isExternal aria-label="Telegram" href={siteConfig.links.telegram}>
+          {/* <Link isExternal aria-label="Telegram" href={siteConfig.links.telegram}>
             <TelegramIcon className="text-default-500" />
-          </Link>
-          <Link isExternal aria-label="Discord" href={siteConfig.links.discord}>
+          </Link> */}
+          {/* <Link isExternal aria-label="Discord" href={siteConfig.links.discord}>
             <DiscordIcon className="text-default-500" />
-          </Link>
-          <Link isExternal aria-label="Github" href={siteConfig.links.github}>
+          </Link> */}
+          {/* <Link isExternal aria-label="Github" href={siteConfig.links.github}>
             <GithubIcon className="text-default-500" />
-          </Link>
+          </Link> */}
           <ThemeSwitch />
         </NavbarItem>
         {siteConfig.links.sponsor && (
@@ -82,15 +82,15 @@ export const Navbar = () => {
       </NavbarContent>
 
       <NavbarContent className="sm:hidden basis-1 md:min-w-fit min-w-full sm:justify-center justify-end pb-14">
-        <Link isExternal aria-label="Telegram" href={siteConfig.links.telegram}>
+        {/* <Link isExternal aria-label="Telegram" href={siteConfig.links.telegram}>
           <TelegramIcon className="text-default-500" />
-        </Link>
-        <Link isExternal aria-label="Discord" href={siteConfig.links.discord}>
+        </Link> */}
+        {/* <Link isExternal aria-label="Discord" href={siteConfig.links.discord}>
           <DiscordIcon className="text-default-500" />
-        </Link>
-        <Link isExternal aria-label="Github" href={siteConfig.links.github}>
+        </Link> */}
+        {/* <Link isExternal aria-label="Github" href={siteConfig.links.github}>
           <GithubIcon className="text-default-500" />
-        </Link>
+        </Link> */}
         <ThemeSwitch />
         {!!siteConfig.navMenuItems.length && <NavbarMenuToggle />}
       </NavbarContent>

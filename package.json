@@ -22,8 +22,8 @@
     "get-folder-size": "4.0.0",
     "jszip": "^3.10.1",
     "mime": "^4.0.4",
-    "next": "14.2.7",
     "minio": "^8.0.1",
+    "next": "^14.2.14",
     "next-themes": "^0.3.0",
     "recharts": "^2.12.7",
     "uuid": "^10.0.0"
